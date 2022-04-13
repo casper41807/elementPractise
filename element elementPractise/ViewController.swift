@@ -383,7 +383,7 @@ class ViewController: UIViewController {
             
         
             let songCurrenPath = UIBezierPath()
-            songCurrenPath.addArc(withCenter: CGPoint(x: 207, y: 228), radius: 168, startAngle: startAngle, endAngle: endAngle, clockwise: true)
+        songCurrenPath.addArc(withCenter: CGPoint(x: view.frame.width/2, y: 228), radius: 168, startAngle: startAngle, endAngle: endAngle, clockwise: true)
             songCurrentShape.path = songCurrenPath.cgPath
             songCurrentShape.strokeColor = UIColor.orange.cgColor
             songCurrentShape.lineWidth = 5
